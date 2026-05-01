@@ -3,9 +3,6 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-USE_OPENAI = False
-OPENAI_API_KEY = ""
-
 def fetch_website_text(url):
     # Загружает HTML-страницу по URL и извлекает из неё текст.
     try:
